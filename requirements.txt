@@ -1,0 +1,15 @@
+# Core notebook stack.
+numpy>=1.26
+pandas>=2.2
+scipy>=1.11
+scikit-learn>=1.4
+matplotlib>=3.9
+jupyter>=1.0
+ipykernel>=6.29
+
+# Optional: only needed to refresh data/ from your own MT5 terminal (Windows).
+MetaTrader5>=5.0.45; platform_system == "Windows"
+
+# Not required: the Gaussian HMM is implemented from scratch in the notebook
+# (hmmlearn has no wheel for Python 3.14 at the time of writing).
+# hmmlearn>=0.3
